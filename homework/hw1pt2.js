@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+#My 2nd node.js script. Very proud of this. :)
 
 var fs = require('fs');
 var outfile = "primes.txt";
@@ -30,7 +31,7 @@ fs.writeFileSync(outfile, out);
 
 
 
-
+#Function to determine primality
 function isPrime(n)
 {
 	for (x in primes)
